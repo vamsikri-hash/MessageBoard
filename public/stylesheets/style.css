@@ -1,0 +1,93 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.new-link {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 42%;
+  color: rgb(241, 251, 243);
+}
+
+.main-head {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  background-color: rgb(76, 145, 214);
+  align-items: center;
+}
+
+.new-link:hover {
+  font-size: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  margin-left: 40px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.title {
+  margin-top: 20px;
+  padding: 20px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: 600;
+}
+
+.input-element {
+  padding: 10px 10px;
+}
+
+.i-e {
+  font-size: 30px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 2px solid gray;
+  padding: 5px 15px;
+}
+
+.date {
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid gray;
+}
+
+.button {
+  margin: 20px;
+  font-size: 20px;
+  padding: 5px;
+  border: 2px solid rgb(28, 171, 214);
+  border-radius: 4px;
+  color: white;
+  background-color: rgb(28, 171, 214);
+}
+
+.form-content {
+  background-color: antiquewhite;
+  width: max-content;
+  margin-left: 35%;
+  min-height: 400px;
+}
+
+.some-list {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.some-list li {
+  background-color: bisque;
+}
+
+.some-list p {
+  padding: 15px;
+  font-size: 20px;
+}

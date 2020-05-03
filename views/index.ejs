@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <header class="main-head">
+      <h1><%= title %></h1>
+      <a href="/new" class="new-link">Create a New Message</a>
+    </header>
+
+    <div class="messages-list">
+      <ul class="some-list">
+        <% messages.forEach(function(message) {%>
+
+        <li>
+          <p>User: <%= message.user%></p>
+          <p>Message: <%= message.text%></p>
+          <p>Added on: <%= message.added.toDateString()%></p>
+        </li>
+
+        <%});%>
+      </ul>
+    </div>
+  </body>
+</html>
